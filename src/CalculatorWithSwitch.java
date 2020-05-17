@@ -27,7 +27,7 @@ public class CalculatorWithSwitch {
                 break;
 
                 default:
-                    System.out.println("plese enter correct operator");
+                    System.out.println("please enter correct operator");
                     break;
         }
 
