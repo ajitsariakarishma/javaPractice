@@ -10,10 +10,6 @@ public class SumOfNumbersByReccursion {
         System.out.println("Sum of numbers from 1 to "+num+" is : "+sum);
     }
 
-
-
-
-
     public static int addNumber(int number){
 
         if(number!=0){

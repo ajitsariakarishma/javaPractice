@@ -1,7 +1,7 @@
 public class ExpressionOfSUmOfPrimeNumbers {
     public static void main(String[] args) {
 
-     ExpressNumberInExpressionOfPrimeNumbers(34);
+    ExpressNumberInExpressionOfPrimeNumbers(34);
     ExpressNumberInExpressionOfPrimeNumbers(11);
 
 
@@ -11,7 +11,7 @@ public class ExpressionOfSUmOfPrimeNumbers {
     }
     public static void ExpressNumberInExpressionOfPrimeNumbers(int num){
          boolean flag = false;
-        for(int i=2;i<num/2;i++){//9
+        for(int i=2;i<num/2;i++){
             if(isPrime(i)){
                 if (isPrime(num - i)) {
                     System.out.println(i+" + "+(num-i)+" = "+num);
